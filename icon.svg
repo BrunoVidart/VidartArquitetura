@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#181715"/>
+  <rect x="36" y="36" width="440" height="440" rx="4" fill="none" stroke="#8F734B" stroke-width="2" stroke-opacity="0.48"/>
+  <rect x="46" y="46" width="420" height="420" rx="2" fill="none" stroke="#8F734B" stroke-width="1" stroke-opacity="0.20"/>
+  <text x="242" y="276" font-family="'Cormorant Garamond', Georgia, serif" font-size="152" font-weight="400" fill="#F5F2EC" text-anchor="middle" letter-spacing="6">VA</text>
+  <circle cx="364" cy="268" r="8" fill="#8F734B"/>
+  <line x1="156" y1="312" x2="356" y2="312" stroke="#8F734B" stroke-width="2" stroke-opacity="0.75"/>
+  <text x="256" y="346" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="18" font-weight="400" fill="#8F734B" text-anchor="middle" letter-spacing="7">ARQUITETURA</text>
+</svg>
