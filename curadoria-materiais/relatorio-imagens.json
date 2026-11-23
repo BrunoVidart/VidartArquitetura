@@ -1,0 +1,352 @@
+{
+  "expected": 37,
+  "downloaded": 25,
+  "results": [
+    {
+      "id": "p1",
+      "name": "Oásis",
+      "result": "ok",
+      "width": 590,
+      "height": 370,
+      "size_bytes": 12700,
+      "origin": "https://www.duratex.com.br/produtos/oasis",
+      "image_url": "https://duratex-site-strapi.prd.cloud.dex.co/assets/Duratex_Padrao_Oasis_590x370px_c88b46d2ed.jpg"
+    },
+    {
+      "id": "p2",
+      "name": "Carvalho Lir",
+      "result": "ok",
+      "width": 590,
+      "height": 370,
+      "size_bytes": 11244,
+      "origin": "https://www.duratex.com.br/produtos/carvalho-lir",
+      "image_url": "https://duratex-site-strapi.prd.cloud.dex.co/assets/Carvalho_Lir_Padrao590x370_png_cc92bb0c1c.webp"
+    },
+    {
+      "id": "p3",
+      "name": "Carvalho Berlin",
+      "result": "ok",
+      "width": 590,
+      "height": 370,
+      "size_bytes": 19804,
+      "origin": "https://www.duratex.com.br/produtos/carvalho-berlin",
+      "image_url": "https://duratex-site-strapi.prd.cloud.dex.co/assets/linha_disng_padrao_carvalho_berlin_842x533_590x370_57145009c4.jpg"
+    },
+    {
+      "id": "p4",
+      "name": "Carvalho Batur",
+      "result": "ok",
+      "width": 590,
+      "height": 370,
+      "size_bytes": 32670,
+      "origin": "https://www.duratex.com.br/produtos/carvalho-batur",
+      "image_url": "https://duratex-site-strapi.prd.cloud.dex.co/assets/linha_essencial_wood_padrao_carvalho_batur_842x533_590x370_661f4cc0cb.jpg"
+    },
+    {
+      "id": "p5",
+      "name": "Palha · Trama",
+      "result": "ok",
+      "width": 590,
+      "height": 370,
+      "size_bytes": 41548,
+      "origin": "https://www.duratex.com.br/produtos/palha",
+      "image_url": "https://duratex-site-strapi.prd.cloud.dex.co/assets/Duratex_Padrao_Palha_590x370px_c71e79a349.jpg"
+    },
+    {
+      "id": "p6",
+      "name": "Gianduia Puro",
+      "result": "failed",
+      "error": "arquivo pequeno demais",
+      "origin": "https://www.duratex.com.br/produtos/gianduia-puro",
+      "image_url": "https://duratex-site-strapi.prd.cloud.dex.co/assets/GIANDUIA_copiar_1_48f2808945.png"
+    },
+    {
+      "id": "p7",
+      "name": "Mint",
+      "result": "failed",
+      "error": "arquivo pequeno demais",
+      "origin": "https://www.duratex.com.br/produtos/mint",
+      "image_url": "https://duratex-site-strapi.prd.cloud.dex.co/assets/linha_essencial_padrao_mint_842x533_590x370_05461f3493.jpg"
+    },
+    {
+      "id": "p8",
+      "name": "Azul Secreto",
+      "result": "failed",
+      "error": "arquivo pequeno demais",
+      "origin": "https://www.duratex.com.br/produtos/azul-secreto",
+      "image_url": "https://duratex-site-strapi.prd.cloud.dex.co/assets/linha_essencial_padrao_azul_secreto_842x533_590x370_1b8a5c52d4.jpg"
+    },
+    {
+      "id": "p9",
+      "name": "Noce Mare",
+      "result": "ok",
+      "width": 590,
+      "height": 370,
+      "size_bytes": 17912,
+      "origin": "https://www.duratex.com.br/produtos/noce-mare",
+      "image_url": "https://duratex-site-strapi.prd.cloud.dex.co/assets/linha_essencial_padrao_noce_mare_842x533_590x370_9d1870b360.jpg"
+    },
+    {
+      "id": "p10",
+      "name": "Nogueira Asti",
+      "result": "ok",
+      "width": 590,
+      "height": 370,
+      "size_bytes": 15390,
+      "origin": "https://www.duratex.com.br/produtos/nogueira-asti",
+      "image_url": "https://duratex-site-strapi.prd.cloud.dex.co/assets/NOGUEIRA_ASTI_copiar_1_png_4092a2d624.webp"
+    },
+    {
+      "id": "p11",
+      "name": "Cinza Fóssil · Velluto",
+      "result": "failed",
+      "error": "arquivo pequeno demais",
+      "origin": "https://www.duratex.com.br/produtos/cinza-fossil",
+      "image_url": "https://duratex-site-strapi.prd.cloud.dex.co/assets/Cinza_Fossil590x370_d2a2143fac.png"
+    },
+    {
+      "id": "p12",
+      "name": "Moss · Velluto",
+      "result": "failed",
+      "error": "arquivo pequeno demais",
+      "origin": "https://www.duratex.com.br/produtos/moss",
+      "image_url": "https://duratex-site-strapi.prd.cloud.dex.co/assets/Padrao_Moss590x370_6ab6bbe2e4.png"
+    },
+    {
+      "id": "p13",
+      "name": "Areal · Bold",
+      "result": "ok",
+      "width": 740,
+      "height": 1100,
+      "size_bytes": 92312,
+      "origin": "https://arauco.com.br/produto/areal/",
+      "image_url": "https://arauco.com.br/wp-content/uploads/2024/03/Areal-185x275-1.jpg"
+    },
+    {
+      "id": "p14",
+      "name": "Carvalho · Poró",
+      "result": "ok",
+      "width": 740,
+      "height": 1100,
+      "size_bytes": 97344,
+      "origin": "https://arauco.com.br/produto/carvalho/",
+      "image_url": "https://arauco.com.br/wp-content/uploads/2024/03/Carvalho-185x275-1-scaled.jpg"
+    },
+    {
+      "id": "p15",
+      "name": "Carvalho Mel · Bold",
+      "result": "ok",
+      "width": 740,
+      "height": 1100,
+      "size_bytes": 143180,
+      "origin": "https://arauco.com.br/produto/carvalhomel/",
+      "image_url": "https://arauco.com.br/wp-content/uploads/2024/03/Carvalho-Mel-185x275-3-scaled.jpg"
+    },
+    {
+      "id": "p16",
+      "name": "Amendoeira · Bold",
+      "result": "ok",
+      "width": 740,
+      "height": 1100,
+      "size_bytes": 123902,
+      "origin": "https://arauco.com.br/produto/amendoeira/",
+      "image_url": "https://arauco.com.br/wp-content/uploads/2024/03/Amendoeira-185x275-1.jpg"
+    },
+    {
+      "id": "p17",
+      "name": "Beige · Matt",
+      "result": "failed",
+      "error": "arquivo salvo muito pequeno",
+      "origin": "https://arauco.com.br/produto/beige/",
+      "image_url": "https://arauco.com.br/wp-content/uploads/2024/03/mdf-beige-arauco.webp"
+    },
+    {
+      "id": "p18",
+      "name": "Linho · Couro",
+      "result": "ok",
+      "width": 740,
+      "height": 1100,
+      "size_bytes": 8316,
+      "origin": "https://arauco.com.br/produto/linho/",
+      "image_url": "https://arauco.com.br/wp-content/uploads/2024/03/linho-textura-bege-arauco.jpg"
+    },
+    {
+      "id": "p19",
+      "name": "Connect · Matt",
+      "result": "ok",
+      "width": 740,
+      "height": 1100,
+      "size_bytes": 3050,
+      "origin": "https://arauco.com.br/produto/connect/",
+      "image_url": "https://arauco.com.br/wp-content/uploads/2024/03/Connect-185x275-1-scaled.jpg"
+    },
+    {
+      "id": "p20",
+      "name": "Sálvia · Matt",
+      "result": "failed",
+      "error": "arquivo salvo muito pequeno",
+      "origin": "https://arauco.com.br/produto/salvia/",
+      "image_url": "https://arauco.com.br/wp-content/uploads/2024/03/SALVIA-185x275-1-scaled.jpg"
+    },
+    {
+      "id": "p21",
+      "name": "Lord",
+      "result": "failed",
+      "error": "arquivo salvo muito pequeno",
+      "origin": "https://arauco.com.br/produto/lord/",
+      "image_url": "https://arauco.com.br/wp-content/uploads/2024/03/Lord-185x275-1-scaled.jpg"
+    },
+    {
+      "id": "p22",
+      "name": "Gris · Chess",
+      "result": "ok",
+      "width": 740,
+      "height": 1100,
+      "size_bytes": 3668,
+      "origin": "https://arauco.com.br/produto/gris/",
+      "image_url": "https://arauco.com.br/wp-content/uploads/2024/03/mdf-griss.webp"
+    },
+    {
+      "id": "p23",
+      "name": "Maraú · Bold",
+      "result": "ok",
+      "width": 740,
+      "height": 1100,
+      "size_bytes": 99646,
+      "origin": "https://arauco.com.br/produto/marau/",
+      "image_url": "https://arauco.com.br/wp-content/uploads/2024/03/Marau-185-x-275.jpg"
+    },
+    {
+      "id": "p24",
+      "name": "Nogueira Persa · Trend",
+      "result": "ok",
+      "width": 740,
+      "height": 1100,
+      "size_bytes": 62048,
+      "origin": "https://arauco.com.br/produto/nogueira-persa/",
+      "image_url": "https://arauco.com.br/wp-content/uploads/2024/03/NOGUEIRA-PERSA-185x275-2.jpg"
+    },
+    {
+      "id": "p25",
+      "name": "Carvalho Natural",
+      "result": "ok",
+      "width": 1080,
+      "height": 890,
+      "size_bytes": 105862,
+      "origin": "https://www.guararapes.com.br/produto/carvalho-natural/",
+      "image_url": "https://images.prismic.io/guararapes/9f6a25c4-7e86-4be8-943b-6b7dc9ee5597_Guararapes_Carvalho-Natural_183x275cm_3.png?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=50&w=1080&h=890"
+    },
+    {
+      "id": "p26",
+      "name": "Tauari",
+      "result": "ok",
+      "width": 1080,
+      "height": 890,
+      "size_bytes": 110970,
+      "origin": "https://www.guararapes.com.br/produto/tauari/",
+      "image_url": "https://images.prismic.io/guararapes/623ad746-c93d-4d88-a764-4df5dac49f9a_Guararapes_Tauari_183x275cm_2.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=1080&h=890"
+    },
+    {
+      "id": "p27",
+      "name": "Teka Bianco",
+      "result": "ok",
+      "width": 1080,
+      "height": 890,
+      "size_bytes": 258818,
+      "origin": "https://www.guararapes.com.br/produto/teka-bianco/",
+      "image_url": "https://images.prismic.io/guararapes/1d5c30a5-3a41-4768-ae9f-a491fe6fc2d9_Guararapes_Teka-Bianco_183x275cm_2.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=1080&h=890"
+    },
+    {
+      "id": "p28",
+      "name": "Freijó",
+      "result": "ok",
+      "width": 1080,
+      "height": 890,
+      "size_bytes": 119758,
+      "origin": "https://www.guararapes.com.br/produto/freijo/",
+      "image_url": "https://images.prismic.io/guararapes/ab5c3f46-5a04-4160-8a34-ae09672255b9_Guararapes_Freijo_183x275cm_2.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=1080&h=890"
+    },
+    {
+      "id": "p29",
+      "name": "Areia",
+      "result": "failed",
+      "error": "arquivo pequeno demais",
+      "origin": "https://www.guararapes.com.br/produto/areia/",
+      "image_url": "https://images.prismic.io/guararapes/0d11f7b4-087a-452a-9327-65c3685cba75_Guararapes_Areia_2.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&rect=0%2C0%2C1292%2C1920&w=689&h=1024"
+    },
+    {
+      "id": "p30",
+      "name": "Nogal Champagne",
+      "result": "ok",
+      "width": 1080,
+      "height": 890,
+      "size_bytes": 81138,
+      "origin": "https://www.guararapes.com.br/produto/nogal-champagne/",
+      "image_url": "https://images.prismic.io/guararapes/4e0db01d-66f7-441e-adb9-7077da14fcbe_Guararapes_Nogal-Champagne_183x275cm_2.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=1080&h=890"
+    },
+    {
+      "id": "p31",
+      "name": "Fresno Douro",
+      "result": "ok",
+      "width": 691,
+      "height": 491,
+      "size_bytes": 13668,
+      "origin": "https://www.guararapes.com.br/produto/fresno-douro/",
+      "image_url": "https://images.prismic.io/guararapes/aZ9WlMFoBIGEgzYY_FRESNODOURO690x490.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=691&h=491"
+    },
+    {
+      "id": "p32",
+      "name": "Doce de Leite",
+      "result": "failed",
+      "error": "arquivo pequeno demais",
+      "origin": "https://www.guararapes.com.br/produto/doce-de-leite/",
+      "image_url": "https://images.prismic.io/guararapes/aadNcFxvIZEnjSwQ_DOCEDELEITE690x490-2-.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=691&h=491"
+    },
+    {
+      "id": "p33",
+      "name": "Fendi",
+      "result": "ok",
+      "width": 1080,
+      "height": 890,
+      "size_bytes": 15320,
+      "origin": "https://www.guararapes.com.br/produto/fendi/",
+      "image_url": "https://images.prismic.io/guararapes/9d24f7d5-cb0c-4f52-9a69-19e406bcf4a8_Guararapes_Fendi_183x275cm_2.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=1080&h=890"
+    },
+    {
+      "id": "p34",
+      "name": "Alecrim",
+      "result": "ok",
+      "width": 689,
+      "height": 550,
+      "size_bytes": 16844,
+      "origin": "https://www.guararapes.com.br/produto/alecrim/",
+      "image_url": "https://images.prismic.io/guararapes/22e014ed-63e3-4111-9d8b-a56d42961000_Guararapes_Alecrim_183x275cm_2.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=689&h=550"
+    },
+    {
+      "id": "p35",
+      "name": "Verde Oliva",
+      "result": "failed",
+      "error": "arquivo pequeno demais",
+      "origin": "https://www.guararapes.com.br/produto/verde-oliva/",
+      "image_url": "https://images.prismic.io/guararapes/aadMi1xvIZEnjSwB_VERDEOLIVA690x490-2-.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=691&h=491"
+    },
+    {
+      "id": "p36",
+      "name": "Marrom Sépia",
+      "result": "failed",
+      "error": "arquivo pequeno demais",
+      "origin": "https://www.guararapes.com.br/produto/marrom-sepia/",
+      "image_url": "https://images.prismic.io/guararapes/aadKyFxvIZEnjSvX_MARROMS%C3%89PIA690x490.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=691&h=491"
+    },
+    {
+      "id": "p37",
+      "name": "Carvalho Nórdico",
+      "result": "ok",
+      "width": 691,
+      "height": 491,
+      "size_bytes": 20750,
+      "origin": "https://www.guararapes.com.br/produto/carvalho-nordico/",
+      "image_url": "https://images.prismic.io/guararapes/aaX3-1xvIZEnjP7Z_CARVALHON%C3%93RDICO690x490.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=691&h=491"
+    }
+  ]
+}
