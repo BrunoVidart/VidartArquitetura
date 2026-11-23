@@ -545,14 +545,27 @@
     if(first) first.scrollIntoView({behavior:'smooth', block:'start'});
     return false;
   }
-  function finish(){
+  async function finish(){
     if(!ready()) return false;
     render(); safeSave();
-    completeSummary.value=buildSummary();
-    mainContent.hidden=true; mainContent.style.display='none';
-    complete.hidden=false; complete.style.display='grid';
-    window.scrollTo({top:0, behavior:'smooth'});
-    return true;
+    finishBtn.disabled=true; emailBtn.disabled=true; status.textContent='Enviando sua seleção ao escritório…';
+    try{
+      const response=await fetch('https://script.google.com/macros/s/AKfycbz92ulraImXokz8sNYoh9nGPmK78nXHSEDGmZLkY57gJ1DBHtnuF95GHoEr0WkvcUtt/exec',{
+        method:'POST',headers:{'Content-Type':'text/plain;charset=UTF-8'},
+        body:JSON.stringify({type:'curadoria',name:clientName.value.trim(),selected:selectedValues(),note:clientNote.value.trim()})
+      });
+      const result=await response.json();
+      if(!response.ok||!result.ok) throw new Error('Não foi possível confirmar o envio.');
+      completeSummary.value=buildSummary();
+      mainContent.hidden=true; mainContent.style.display='none';
+      complete.hidden=false; complete.style.display='grid';
+      window.scrollTo({top:0, behavior:'smooth'});
+      return true;
+    }catch(error){
+      status.textContent='Não conseguimos enviar sua curadoria. Confira sua conexão e tente novamente.';
+      finishBtn.disabled=false; emailBtn.disabled=false;
+      return false;
+    }
   }
   function mailto(){
     const subject=encodeURIComponent('Curadoria de materiais — '+(clientName.value.trim()||'Seleção do cliente'));
@@ -575,8 +588,8 @@
   clientName.addEventListener('input', onChange);
   clientNote.addEventListener('input', onChange);
   finishBtn.addEventListener('click', finish);
-  emailBtn.addEventListener('click', function(){ if(!finish()) return; window.location.href=mailto(); });
-  completeEmail.addEventListener('click', function(){ window.location.href=mailto(); });
+  emailBtn.addEventListener('click', function(){ finish(); });
+  completeEmail.addEventListener('click', function(){ copySummary(); });
   completeCopy.addEventListener('click', copySummary);
   reviewBtn.addEventListener('click', function(){ complete.hidden=true; complete.style.display='none'; mainContent.hidden=false; mainContent.style.display='block'; finishBtn.scrollIntoView({behavior:'smooth', block:'center'}); });
 })();
