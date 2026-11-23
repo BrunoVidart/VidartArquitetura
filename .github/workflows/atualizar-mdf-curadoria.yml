@@ -47,7 +47,8 @@ jobs:
         run: |
           git config user.name "va-curadoria-bot"
           git config user.email "va-curadoria-bot@users.noreply.github.com"
-          git add curadoria-materiais/index.html curadoria-materiais/materiais curadoria-materiais/relatorio-imagens.json curadoria-materiais/logo-va.webp
+          git add curadoria-materiais/index.html curadoria-materiais/materiais curadoria-materiais/relatorio-imagens.json
+          if [ -f curadoria-materiais/logo-va.webp ]; then git add curadoria-materiais/logo-va.webp; fi
           if ! git diff --cached --quiet; then
             git commit -m "Atualizar catálogo com imagens oficiais dos padrões MDF"
             git push
