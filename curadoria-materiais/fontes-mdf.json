@@ -9,7 +9,8 @@
       "page": "https://www.duratex.com.br/produtos/oasis",
       "title": "Oásis | Duratex - Painéis de MDF e MDP",
       "image": "https://duratex-site-strapi.prd.cloud.dex.co/assets/Duratex_Padrao_Oasis_590x370px_c88b46d2ed.jpg",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Oásis"
     },
     {
       "id": "p2",
@@ -18,7 +19,8 @@
       "page": "https://www.duratex.com.br/produtos/carvalho-lir",
       "title": "Carvalho Lir | Duratex - Painéis de MDF e MDP",
       "image": "https://duratex-site-strapi.prd.cloud.dex.co/assets/Carvalho_Lir_Padrao590x370_png_cc92bb0c1c.webp",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Carvalho Lir"
     },
     {
       "id": "p3",
@@ -27,7 +29,8 @@
       "page": "https://www.duratex.com.br/produtos/carvalho-berlin",
       "title": "Carvalho Berlin | Duratex - Painéis de MDF e MDP",
       "image": "https://duratex-site-strapi.prd.cloud.dex.co/assets/linha_disng_padrao_carvalho_berlin_842x533_590x370_57145009c4.jpg",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Carvalho Berlin"
     },
     {
       "id": "p4",
@@ -36,7 +39,8 @@
       "page": "https://www.duratex.com.br/produtos/carvalho-batur",
       "title": "Carvalho Batur | Duratex - Painéis de MDF e MDP",
       "image": "https://duratex-site-strapi.prd.cloud.dex.co/assets/linha_essencial_wood_padrao_carvalho_batur_842x533_590x370_661f4cc0cb.jpg",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Carvalho Batur"
     },
     {
       "id": "p5",
@@ -45,7 +49,8 @@
       "page": "https://www.duratex.com.br/produtos/palha",
       "title": "Palha | Duratex - Painéis de MDF e MDP",
       "image": "https://duratex-site-strapi.prd.cloud.dex.co/assets/Duratex_Padrao_Palha_590x370px_c71e79a349.jpg",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Palha · Trama"
     },
     {
       "id": "p6",
@@ -53,8 +58,9 @@
       "slug": "gianduia-puro",
       "page": "https://www.duratex.com.br/produtos/gianduia-puro",
       "title": "Gianduia Puro | Duratex - Painéis de MDF e MDP",
-      "image": "https://duratex-site-strapi.prd.cloud.dex.co/assets/GIANDUIA_2_copiar_1_png_07d0794b48.webp",
-      "method": "official product page"
+      "image": "https://duratex-site-strapi.prd.cloud.dex.co/assets/GIANDUIA_copiar_1_48f2808945.png",
+      "method": "official product page",
+      "name": "Gianduia Puro"
     },
     {
       "id": "p7",
@@ -63,7 +69,8 @@
       "page": "https://www.duratex.com.br/produtos/mint",
       "title": "Mint | Duratex - Painéis de MDF e MDP",
       "image": "https://duratex-site-strapi.prd.cloud.dex.co/assets/linha_essencial_padrao_mint_842x533_590x370_05461f3493.jpg",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Mint"
     },
     {
       "id": "p8",
@@ -72,7 +79,8 @@
       "page": "https://www.duratex.com.br/produtos/azul-secreto",
       "title": "Azul Secreto | Duratex - Painéis de MDF e MDP",
       "image": "https://duratex-site-strapi.prd.cloud.dex.co/assets/linha_essencial_padrao_azul_secreto_842x533_590x370_1b8a5c52d4.jpg",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Azul Secreto"
     },
     {
       "id": "p9",
@@ -81,7 +89,8 @@
       "page": "https://www.duratex.com.br/produtos/noce-mare",
       "title": "Noce Mare | Duratex - Painéis de MDF e MDP",
       "image": "https://duratex-site-strapi.prd.cloud.dex.co/assets/linha_essencial_padrao_noce_mare_842x533_590x370_9d1870b360.jpg",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Noce Mare"
     },
     {
       "id": "p10",
@@ -89,8 +98,9 @@
       "slug": "nogueira-asti",
       "page": "https://www.duratex.com.br/produtos/nogueira-asti",
       "title": "Nogueira Asti | Duratex - Painéis de MDF e MDP",
-      "image": "https://duratex-site-strapi.prd.cloud.dex.co/assets/NOGUEIRA_ASTIS_copiar_1_png_93179de359.webp",
-      "method": "official product page"
+      "image": "https://duratex-site-strapi.prd.cloud.dex.co/assets/NOGUEIRA_ASTI_copiar_1_png_4092a2d624.webp",
+      "method": "official product page",
+      "name": "Nogueira Asti"
     },
     {
       "id": "p11",
@@ -98,8 +108,9 @@
       "slug": "cinza-fossil",
       "page": "https://www.duratex.com.br/produtos/cinza-fossil",
       "title": "Cinza Fóssil | Duratex - Painéis de MDF e MDP",
-      "image": "https://duratex-site-strapi.prd.cloud.dex.co/assets/Cinza_Fossil_590x370_1_png_25b27f6ecc.webp",
-      "method": "official product page"
+      "image": "https://duratex-site-strapi.prd.cloud.dex.co/assets/Cinza_Fossil590x370_d2a2143fac.png",
+      "method": "official product page",
+      "name": "Cinza Fóssil · Velluto"
     },
     {
       "id": "p12",
@@ -108,7 +119,8 @@
       "page": "https://www.duratex.com.br/produtos/moss",
       "title": "Moss | Duratex - Painéis de MDF e MDP",
       "image": "https://duratex-site-strapi.prd.cloud.dex.co/assets/Padrao_Moss590x370_6ab6bbe2e4.png",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Moss · Velluto"
     },
     {
       "id": "p13",
@@ -117,7 +129,8 @@
       "page": "https://arauco.com.br/produto/areal/",
       "title": "MDF Areal | Arauco",
       "image": "https://arauco.com.br/wp-content/uploads/2024/03/Areal-185x275-1.jpg",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Areal · Bold"
     },
     {
       "id": "p14",
@@ -126,7 +139,8 @@
       "page": "https://arauco.com.br/produto/carvalho/",
       "title": "Carvalho - Arauco",
       "image": "https://arauco.com.br/wp-content/uploads/2024/03/Carvalho-185x275-1-scaled.jpg",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Carvalho · Poró"
     },
     {
       "id": "p15",
@@ -135,7 +149,8 @@
       "page": "https://arauco.com.br/produto/carvalhomel/",
       "title": "MDF Carvalho Mel | Arauco",
       "image": "https://arauco.com.br/wp-content/uploads/2024/03/Carvalho-Mel-185x275-3-scaled.jpg",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Carvalho Mel · Bold"
     },
     {
       "id": "p16",
@@ -144,7 +159,8 @@
       "page": "https://arauco.com.br/produto/amendoeira/",
       "title": "Amendoeira - ARAUCO Brasil",
       "image": "https://arauco.com.br/wp-content/uploads/2024/03/Amendoeira-185x275-1.jpg",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Amendoeira · Bold"
     },
     {
       "id": "p17",
@@ -153,7 +169,8 @@
       "page": "https://arauco.com.br/produto/beige/",
       "title": "Beige - Arauco",
       "image": "https://arauco.com.br/wp-content/uploads/2024/03/mdf-beige-arauco.webp",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Beige · Matt"
     },
     {
       "id": "p18",
@@ -162,7 +179,8 @@
       "page": "https://arauco.com.br/produto/linho/",
       "title": "Linho - Arauco Brasil",
       "image": "https://arauco.com.br/wp-content/uploads/2024/03/linho-textura-bege-arauco.jpg",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Linho · Couro"
     },
     {
       "id": "p19",
@@ -171,7 +189,8 @@
       "page": "https://arauco.com.br/produto/connect/",
       "title": "Connect - ARAUCO Brasil",
       "image": "https://arauco.com.br/wp-content/uploads/2024/03/Connect-185x275-1-scaled.jpg",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Connect · Matt"
     },
     {
       "id": "p20",
@@ -180,7 +199,8 @@
       "page": "https://arauco.com.br/produto/salvia/",
       "title": "Sálvia - ARAUCO Brasil",
       "image": "https://arauco.com.br/wp-content/uploads/2024/03/SALVIA-185x275-1-scaled.jpg",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Sálvia · Matt"
     },
     {
       "id": "p21",
@@ -189,7 +209,8 @@
       "page": "https://arauco.com.br/produto/lord/",
       "title": "MDF Lord | Arauco",
       "image": "https://arauco.com.br/wp-content/uploads/2024/03/Lord-185x275-1-scaled.jpg",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Lord"
     },
     {
       "id": "p22",
@@ -198,7 +219,8 @@
       "page": "https://arauco.com.br/produto/gris/",
       "title": "MDF Gris: Textura Chess - Confira na Arauco!",
       "image": "https://arauco.com.br/wp-content/uploads/2024/03/mdf-griss.webp",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Gris · Chess"
     },
     {
       "id": "p23",
@@ -207,7 +229,8 @@
       "page": "https://arauco.com.br/produto/marau/",
       "title": "MDF Marau | Arauco",
       "image": "https://arauco.com.br/wp-content/uploads/2024/03/Marau-185-x-275.jpg",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Maraú · Bold"
     },
     {
       "id": "p24",
@@ -216,7 +239,8 @@
       "page": "https://arauco.com.br/produto/nogueira-persa/",
       "title": "Nogueira Persa - ARAUCO Brasil",
       "image": "https://arauco.com.br/wp-content/uploads/2024/03/NOGUEIRA-PERSA-185x275-2.jpg",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Nogueira Persa · Trend"
     },
     {
       "id": "p25",
@@ -225,7 +249,8 @@
       "page": "https://www.guararapes.com.br/produto/carvalho-natural/",
       "title": "MDF Carvalho Natural | Linha Madeiras do Mundo | Guararapes Painéis de MDF",
       "image": "https://images.prismic.io/guararapes/9f6a25c4-7e86-4be8-943b-6b7dc9ee5597_Guararapes_Carvalho-Natural_183x275cm_3.png?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=50&w=1080&h=890",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Carvalho Natural"
     },
     {
       "id": "p26",
@@ -234,7 +259,8 @@
       "page": "https://www.guararapes.com.br/produto/tauari/",
       "title": "MDF Tauari | Linha Madeiras do Brasil | Guararapes Painéis de MDF",
       "image": "https://images.prismic.io/guararapes/623ad746-c93d-4d88-a764-4df5dac49f9a_Guararapes_Tauari_183x275cm_2.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=1080&h=890",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Tauari"
     },
     {
       "id": "p27",
@@ -243,7 +269,8 @@
       "page": "https://www.guararapes.com.br/produto/teka-bianco/",
       "title": "MDF Teka Bianco | Linha Flex | Guararapes Painéis de MDF",
       "image": "https://images.prismic.io/guararapes/1d5c30a5-3a41-4768-ae9f-a491fe6fc2d9_Guararapes_Teka-Bianco_183x275cm_2.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=1080&h=890",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Teka Bianco"
     },
     {
       "id": "p28",
@@ -252,7 +279,8 @@
       "page": "https://www.guararapes.com.br/produto/freijo/",
       "title": "MDF Freijó | Linha Madeiras do Brasil | Guararapes Painéis de MDF",
       "image": "https://images.prismic.io/guararapes/ab5c3f46-5a04-4160-8a34-ae09672255b9_Guararapes_Freijo_183x275cm_2.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=1080&h=890",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Freijó"
     },
     {
       "id": "p29",
@@ -261,7 +289,8 @@
       "page": "https://www.guararapes.com.br/produto/areia/",
       "title": "MDF Areia | Linha Colors | Guararapes Painéis de MDF",
       "image": "https://images.prismic.io/guararapes/0d11f7b4-087a-452a-9327-65c3685cba75_Guararapes_Areia_2.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&rect=0%2C0%2C1292%2C1920&w=689&h=1024",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Areia"
     },
     {
       "id": "p30",
@@ -270,7 +299,8 @@
       "page": "https://www.guararapes.com.br/produto/nogal-champagne/",
       "title": "MDF Nogal Champagne | Linha Madeiras do Mundo | Guararapes Painéis de MDF",
       "image": "https://images.prismic.io/guararapes/4e0db01d-66f7-441e-adb9-7077da14fcbe_Guararapes_Nogal-Champagne_183x275cm_2.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=1080&h=890",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Nogal Champagne"
     },
     {
       "id": "p31",
@@ -279,7 +309,8 @@
       "page": "https://www.guararapes.com.br/produto/fresno-douro/",
       "title": "MDF Fresno Douro | Linha Madeiras do Mundo | Guararapes",
       "image": "https://images.prismic.io/guararapes/aZ9WlMFoBIGEgzYY_FRESNODOURO690x490.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=691&h=491",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Fresno Douro"
     },
     {
       "id": "p32",
@@ -288,7 +319,8 @@
       "page": "https://www.guararapes.com.br/produto/doce-de-leite/",
       "title": "MDF Doce de Leite | Linha Colors | Guararapes Painéis de MDF",
       "image": "https://images.prismic.io/guararapes/aadNcFxvIZEnjSwQ_DOCEDELEITE690x490-2-.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=691&h=491",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Doce de Leite"
     },
     {
       "id": "p33",
@@ -297,7 +329,8 @@
       "page": "https://www.guararapes.com.br/produto/fendi/",
       "title": "MDF Fendi | Linha Flex | Guararapes Painéis de MDF",
       "image": "https://images.prismic.io/guararapes/9d24f7d5-cb0c-4f52-9a69-19e406bcf4a8_Guararapes_Fendi_183x275cm_2.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=1080&h=890",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Fendi"
     },
     {
       "id": "p34",
@@ -306,7 +339,8 @@
       "page": "https://www.guararapes.com.br/produto/alecrim/",
       "title": "MDF Alecrim | Linha Colors | Guararapes Painéis de MDF",
       "image": "https://images.prismic.io/guararapes/22e014ed-63e3-4111-9d8b-a56d42961000_Guararapes_Alecrim_183x275cm_2.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=689&h=550",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Alecrim"
     },
     {
       "id": "p35",
@@ -315,7 +349,8 @@
       "page": "https://www.guararapes.com.br/produto/verde-oliva/",
       "title": "MDF Verde Oliva | Linha Linha Colors | Guararapes Painéis de MDF",
       "image": "https://images.prismic.io/guararapes/aadMi1xvIZEnjSwB_VERDEOLIVA690x490-2-.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=691&h=491",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Verde Oliva"
     },
     {
       "id": "p36",
@@ -324,7 +359,8 @@
       "page": "https://www.guararapes.com.br/produto/marrom-sepia/",
       "title": "MDF Marrom Sépia | Linha Colors | Guararapes",
       "image": "https://images.prismic.io/guararapes/aadKyFxvIZEnjSvX_MARROMS%C3%89PIA690x490.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=691&h=491",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Marrom Sépia"
     },
     {
       "id": "p37",
@@ -333,7 +369,8 @@
       "page": "https://www.guararapes.com.br/produto/carvalho-nordico/",
       "title": "MDF Carvalho Nórdico | Linha Madeiras do Mundo | Guararapes",
       "image": "https://images.prismic.io/guararapes/aaX3-1xvIZEnjP7Z_CARVALHON%C3%93RDICO690x490.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=691&h=491",
-      "method": "official product page"
+      "method": "official product page",
+      "name": "Carvalho Nórdico"
     }
   ]
 }
