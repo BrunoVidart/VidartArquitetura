@@ -100,7 +100,7 @@ function vaSectionRows(section, pdf) {
 
 function vaReportHtml(data, pdf) {
   var sectionsHtml = data.sections.map(function (section) {
-    return '<table cellspacing="0" cellpadding="0" border="0" style="width:100%;border-collapse:collapse;margin:0 0 20px;page-break-inside:avoid;">'
+    return '<table cellspacing="0" cellpadding="0" border="0" style="width:100%;border-collapse:collapse;margin:0 0 20px;">'
       + '<thead><tr><th style="text-align:left;background:#f1eee8;padding:13px 16px;font:600 13px Arial,sans-serif;color:#756b5e;letter-spacing:.3px;">'
       + vaEscape(section.title) + '</th></tr></thead><tbody>' + vaSectionRows(section, pdf) + '</tbody></table>';
   }).join("");
