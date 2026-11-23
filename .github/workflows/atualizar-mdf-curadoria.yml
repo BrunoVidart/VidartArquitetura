@@ -1,0 +1,56 @@
+name: Atualizar fotos oficiais dos MDFs
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/atualizar-mdf-curadoria.yml'
+      - 'curadoria-materiais/fontes-mdf.json'
+      - 'curadoria-materiais/scripts/baixar_mdf.py'
+      - 'curadoria-materiais/logo-va.base64'
+permissions:
+  contents: write
+concurrency:
+  group: atualizar-fotos-mdf
+  cancel-in-progress: false
+jobs:
+  baixar-e-publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Dependências
+        run: pip install requests pillow beautifulsoup4
+      - name: Recuperar logo VA transparente
+        run: |
+          if [ -f curadoria-materiais/logo-va.base64 ]; then
+            base64 -d curadoria-materiais/logo-va.base64 > curadoria-materiais/logo-va.webp
+          fi
+      - name: Baixar, verificar e aplicar 37 imagens oficiais
+        run: python curadoria-materiais/scripts/baixar_mdf.py
+      - name: Validar código HTML
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from bs4 import BeautifulSoup
+          page=Path('curadoria-materiais/index.html')
+          soup=BeautifulSoup(page.read_text(encoding='utf8'),'html.parser')
+          thumbs=soup.select('label.material-card img')
+          photos=list(Path('curadoria-materiais/materiais').glob('p*.webp'))
+          print('Fotos de MDF no disco',len(photos),'Fotos nos cartões',len(thumbs))
+          assert not thumbs or len(thumbs)==37, 'Catálogo parcialmente publicado'
+          PY
+      - name: Salvar imagens no repositório
+        run: |
+          git config user.name "va-curadoria-bot"
+          git config user.email "va-curadoria-bot@users.noreply.github.com"
+          git add curadoria-materiais/index.html curadoria-materiais/materiais curadoria-materiais/relatorio-imagens.json curadoria-materiais/logo-va.webp
+          if ! git diff --cached --quiet; then
+            git commit -m "Atualizar catálogo com imagens oficiais dos padrões MDF"
+            git push
+          else
+            echo 'Sem arquivos novos para publicar'
+          fi
