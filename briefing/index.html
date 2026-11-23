@@ -120,7 +120,7 @@ function render(){
  let h="";
  if(step===-1){h='<section class="cover"><img class="cover-logo" src="logo.svg?v=3" alt="VA Arquitetura e Interiores — logotipo original"><div class="overline">Sua casa, sua história</div><h1 class="serif">Vamos projetar juntos?</h1><p class="sub">Cada detalhe começa com a compreensão de quem vai viver o espaço. Conte-nos um pouco sobre a rotina, as preferências e as necessidades de vocês.</p><p class="cover-details">13 etapas · 68 perguntas · Preenchimento simples e intuitivo</p><button class="btn" onclick="go(0)">Iniciar meu briefing</button><p class="small" style="margin-top:24px">Atendimento personalizado · Privacidade e proteção de dados</p></section>'}
  else if(step<SECTIONS.length){
- const s=SECTIONS[step];h='<section><div class="overline">Etapa '+(step+1)+' de '+SECTIONS.length</div><div class="progress"><span style="width:'+((step+1)/(SECTIONS.length+1)*100)+'%"></span></div><h2 class="section-title">'+safe(s[0])+'</h2><p class="sub">'+safe(s[1])+'</p>';
+ const s=SECTIONS[step];h='<section><div class="overline">Etapa '+(step+1)+' de '+SECTIONS.length+'</div><div class="progress"><span style="width:'+((step+1)/(SECTIONS.length+1)*100)+'%"></span></div><h2 class="section-title">'+safe(s[0])+'</h2><p class="sub">'+safe(s[1])+'</p>';
  for(const q of s[2]){const [n,type,label,options]=q;h+='<div class="q"><p class="qtitle"><span class="qn">'+String(n).padStart(2,"0")+'</span>'+safe(label)+'</p>';
  if(type==="single"||type==="multi"){
  h+='<div class="choices">';
