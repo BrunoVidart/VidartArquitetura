@@ -124,9 +124,9 @@ footer .footer-va{align-items:center;gap:28px;padding-top:9px;padding-bottom:9px
 .qtitle{margin-bottom:12px}
 .choice-guide{margin:0 0 14px;font-size:13px;color:#686156}
 .choices .choice{align-items:baseline;gap:12px;box-shadow:0 1px 2px #39362f08;transition:background-color .14s,border-color .14s,box-shadow .14s}
-.choices input{appearance:none;position:relative;align-self:start;margin:3px 0 0;width:18px;height:18px;border:1.5px solid #938a7c;background:#fff;border-radius:4px;display:grid;place-content:center}
+.choices input{appearance:none;position:relative;align-self:start;margin:3px 0 0;width:18px;height:18px;border:1.5px solid #938a7c;background:#fff;border-radius:50%;display:grid;place-content:center}
 .choices input:checked{background:#655c4e;border-color:#655c4e}
-.choices input:checked::after{content:"";width:5px;height:9px;border:solid white;border-width:0 2px 2px 0;transform:translateY(-1px) rotate(45deg)}
+.choices input:checked::after{content:"";width:6px;height:6px;border-radius:50%;background:white}
 .choices .choice:has(:focus-visible){outline:2px solid #716452;outline-offset:3px}
 @media(prefers-reduced-motion:no-preference){#app>section{animation:va-enter .2s ease-out}@keyframes va-enter{from{opacity:.45;transform:translateY(4px)}to{opacity:1;transform:none}}}
 @media(prefers-reduced-motion:reduce){.choices .choice,.progress span{transition:none}}
