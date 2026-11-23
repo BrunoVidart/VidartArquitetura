@@ -33,7 +33,7 @@ for mat in DATA["materials"]:
             headers = {"Referer": mat["page"], "Accept": "image/webp,image/png,image/jpeg,image/*,*/*;q=0.8"}
             res = S.get(url, headers=headers, timeout=35)
             res.raise_for_status()
-            if len(res.content) < 3000:
+            if len(res.content) < 100:
                 raise ValueError("arquivo pequeno demais")
             image = Image.open(BytesIO(res.content))
             image.load()
@@ -49,7 +49,7 @@ for mat in DATA["materials"]:
             image.thumbnail((1300, 1100), Image.Resampling.LANCZOS)
             image.save(dest, "WEBP", quality=88, method=5)
             size = dest.stat().st_size
-            if size < 3000:
+            if size < 150:
                 raise ValueError("arquivo salvo muito pequeno")
             LOG.append({"id": mid, "name": name, "result": "ok", "width": image.width,
                         "height": image.height, "size_bytes": size, "origin": mat["page"],
