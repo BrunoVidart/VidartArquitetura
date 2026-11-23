@@ -207,6 +207,10 @@ function vaNotifyWhatsApp() {
 }
 
 function doPost(e) {
+  var lock = LockService.getScriptLock();
+  if (!lock.tryLock(5000)) {
+    return vaJson({ok:false,error:"Processamento ocupado; tente novamente."});
+  }
   try {
     if (!e || !e.postData || !e.postData.contents) throw new Error("POST sem dados");
     var data = vaNormalize(JSON.parse(e.postData.contents));
@@ -230,6 +234,8 @@ function doPost(e) {
   } catch (error) {
     console.error("Erro de processamento de briefing: " + String(error.message || error));
     return vaJson({ok:false,error:"Não foi possível processar o briefing."});
+  } finally {
+    lock.releaseLock();
   }
 }
 function vaJson(obj) {
