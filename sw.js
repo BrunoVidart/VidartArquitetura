@@ -1,36 +1,65 @@
-// Service Worker — VA. Atelier Digital v2.1
-const CACHE_NAME = 'va-atelier-v2';
+// Service Worker — VA. Arquitetura & Interiores — v9 (Curadoria Alto Padrão + Luz Real)
+const CACHE_NAME = 'va-atelier-v9';
 
 const SHELL_ASSETS = [
   './',
   './index.html',
   './style.css',
   './data.js',
+  './checklist.js',
+  './storage.js',
   './app.js',
   './manifest.json',
   './icon.svg',
   './icon-192.png',
-  './icon-512.png'
+  './icon-512.png',
+  './assets/env-classico.webp',
+  './assets/env-mediterraneo.webp',
+  './assets/env-minimal.webp',
+  './assets/hero-living.webp',
+  './assets/light-dia.webp',
+  './assets/light-difusa.webp',
+  './assets/light-indireta.webp',
+  './assets/light-intimista.webp',
+  './assets/mat-acetinado.webp',
+  './assets/mat-lisas.webp',
+  './assets/mat-marmore.webp',
+  './assets/mat-metal.webp',
+  './assets/mat-quartzito.webp',
+  './assets/mat-tecidos.webp',
+  './assets/mat-textura.webp',
+  './assets/mat-travertino.webp',
+  './assets/mat-vidro.webp',
+  './assets/sty-classico.webp',
+  './assets/sty-contemporaneo.webp',
+  './assets/sty-ecletico.webp',
+  './assets/sty-escandinavo.webp',
+  './assets/sty-industrial.webp',
+  './assets/sty-japandi.webp',
+  './assets/sty-minimalista.webp',
+  './assets/sty-moderno.webp',
+  './assets/sty-neoclassico.webp',
+  './assets/sty-organico.webp',
+  './assets/sty-rustico.webp',
+  './assets/va-ref-01.webp',
+  './assets/va-ref-02.webp',
+  './assets/va-ref-03.webp',
+  './assets/va-ref-04.webp',
+  './assets/va-ref-05.webp',
+  './assets/va-ref-06.webp',
+  './assets/va-ref-07.webp',
+  './assets/va-ref-08.webp'
 ];
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(SHELL_ASSETS))
-  );
+  event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(SHELL_ASSETS)));
   self.skipWaiting();
 });
 
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((keys) =>
-      Promise.all(
-        keys.map((key) => {
-          if (key !== CACHE_NAME) {
-            return caches.delete(key);
-          }
-          return Promise.resolve();
-        })
-      )
+      Promise.all(keys.map((key) => (key.startsWith('va-atelier-') && key !== CACHE_NAME ? caches.delete(key) : Promise.resolve())))
     )
   );
   self.clients.claim();
@@ -58,16 +87,12 @@ async function networkFirst(request) {
   const cache = await caches.open(CACHE_NAME);
   try {
     const response = await fetch(request);
-    if (response && response.ok) {
-      cache.put(request, response.clone());
-    }
+    if (response && response.ok) cache.put(request, response.clone());
     return response;
   } catch (err) {
     const cached = await caches.match(request);
     if (cached) return cached;
-    if (request.mode === 'navigate') {
-      return caches.match('./index.html');
-    }
+    if (request.mode === 'navigate') return caches.match('./index.html');
     throw err;
   }
 }
@@ -75,43 +100,30 @@ async function networkFirst(request) {
 async function staleWhileRevalidate(request) {
   const cache = await caches.open(CACHE_NAME);
   const cached = await cache.match(request);
-
   const networkPromise = fetch(request)
     .then((response) => {
-      if (response && (response.ok || response.type === 'opaque')) {
-        cache.put(request, response.clone());
-      }
+      if (response && (response.ok || response.type === 'opaque')) cache.put(request, response.clone());
       return response;
     })
     .catch(() => null);
-
-  if (cached) {
-    return cached;
-  }
-
+  if (cached) return cached;
   const networkResponse = await networkPromise;
-  if (networkResponse) {
-    return networkResponse;
-  }
+  if (networkResponse) return networkResponse;
   return Response.error();
 }
 
 self.addEventListener('fetch', (event) => {
   const { request } = event;
   if (request.method !== 'GET') return;
-
   const url = new URL(request.url);
   if (url.protocol !== 'http:' && url.protocol !== 'https:') return;
-
   if (isShellRequest(request, url)) {
     event.respondWith(networkFirst(request));
     return;
   }
-
   if (isMediaOrFontRequest(request, url)) {
     event.respondWith(staleWhileRevalidate(request));
     return;
   }
-
   event.respondWith(networkFirst(request));
 });
