@@ -1,6 +1,6 @@
 {
   "expected": 37,
-  "downloaded": 25,
+  "downloaded": 37,
   "results": [
     {
       "id": "p1",
@@ -55,24 +55,30 @@
     {
       "id": "p6",
       "name": "Gianduia Puro",
-      "result": "failed",
-      "error": "arquivo pequeno demais",
+      "result": "ok",
+      "width": 590,
+      "height": 370,
+      "size_bytes": 494,
       "origin": "https://www.duratex.com.br/produtos/gianduia-puro",
       "image_url": "https://duratex-site-strapi.prd.cloud.dex.co/assets/GIANDUIA_copiar_1_48f2808945.png"
     },
     {
       "id": "p7",
       "name": "Mint",
-      "result": "failed",
-      "error": "arquivo pequeno demais",
+      "result": "ok",
+      "width": 590,
+      "height": 370,
+      "size_bytes": 730,
       "origin": "https://www.duratex.com.br/produtos/mint",
       "image_url": "https://duratex-site-strapi.prd.cloud.dex.co/assets/linha_essencial_padrao_mint_842x533_590x370_05461f3493.jpg"
     },
     {
       "id": "p8",
       "name": "Azul Secreto",
-      "result": "failed",
-      "error": "arquivo pequeno demais",
+      "result": "ok",
+      "width": 590,
+      "height": 370,
+      "size_bytes": 1232,
       "origin": "https://www.duratex.com.br/produtos/azul-secreto",
       "image_url": "https://duratex-site-strapi.prd.cloud.dex.co/assets/linha_essencial_padrao_azul_secreto_842x533_590x370_1b8a5c52d4.jpg"
     },
@@ -99,16 +105,20 @@
     {
       "id": "p11",
       "name": "Cinza Fóssil · Velluto",
-      "result": "failed",
-      "error": "arquivo pequeno demais",
+      "result": "ok",
+      "width": 590,
+      "height": 370,
+      "size_bytes": 466,
       "origin": "https://www.duratex.com.br/produtos/cinza-fossil",
       "image_url": "https://duratex-site-strapi.prd.cloud.dex.co/assets/Cinza_Fossil590x370_d2a2143fac.png"
     },
     {
       "id": "p12",
       "name": "Moss · Velluto",
-      "result": "failed",
-      "error": "arquivo pequeno demais",
+      "result": "ok",
+      "width": 590,
+      "height": 370,
+      "size_bytes": 470,
       "origin": "https://www.duratex.com.br/produtos/moss",
       "image_url": "https://duratex-site-strapi.prd.cloud.dex.co/assets/Padrao_Moss590x370_6ab6bbe2e4.png"
     },
@@ -155,8 +165,10 @@
     {
       "id": "p17",
       "name": "Beige · Matt",
-      "result": "failed",
-      "error": "arquivo salvo muito pequeno",
+      "result": "ok",
+      "width": 740,
+      "height": 1100,
+      "size_bytes": 1570,
       "origin": "https://arauco.com.br/produto/beige/",
       "image_url": "https://arauco.com.br/wp-content/uploads/2024/03/mdf-beige-arauco.webp"
     },
@@ -183,16 +195,20 @@
     {
       "id": "p20",
       "name": "Sálvia · Matt",
-      "result": "failed",
-      "error": "arquivo salvo muito pequeno",
+      "result": "ok",
+      "width": 740,
+      "height": 1100,
+      "size_bytes": 1546,
       "origin": "https://arauco.com.br/produto/salvia/",
       "image_url": "https://arauco.com.br/wp-content/uploads/2024/03/SALVIA-185x275-1-scaled.jpg"
     },
     {
       "id": "p21",
       "name": "Lord",
-      "result": "failed",
-      "error": "arquivo salvo muito pequeno",
+      "result": "ok",
+      "width": 740,
+      "height": 1100,
+      "size_bytes": 2022,
       "origin": "https://arauco.com.br/produto/lord/",
       "image_url": "https://arauco.com.br/wp-content/uploads/2024/03/Lord-185x275-1-scaled.jpg"
     },
@@ -269,8 +285,10 @@
     {
       "id": "p29",
       "name": "Areia",
-      "result": "failed",
-      "error": "arquivo pequeno demais",
+      "result": "ok",
+      "width": 689,
+      "height": 1024,
+      "size_bytes": 1356,
       "origin": "https://www.guararapes.com.br/produto/areia/",
       "image_url": "https://images.prismic.io/guararapes/0d11f7b4-087a-452a-9327-65c3685cba75_Guararapes_Areia_2.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&rect=0%2C0%2C1292%2C1920&w=689&h=1024"
     },
@@ -297,8 +315,10 @@
     {
       "id": "p32",
       "name": "Doce de Leite",
-      "result": "failed",
-      "error": "arquivo pequeno demais",
+      "result": "ok",
+      "width": 691,
+      "height": 491,
+      "size_bytes": 1180,
       "origin": "https://www.guararapes.com.br/produto/doce-de-leite/",
       "image_url": "https://images.prismic.io/guararapes/aadNcFxvIZEnjSwQ_DOCEDELEITE690x490-2-.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=691&h=491"
     },
@@ -325,16 +345,20 @@
     {
       "id": "p35",
       "name": "Verde Oliva",
-      "result": "failed",
-      "error": "arquivo pequeno demais",
+      "result": "ok",
+      "width": 691,
+      "height": 491,
+      "size_bytes": 1006,
       "origin": "https://www.guararapes.com.br/produto/verde-oliva/",
       "image_url": "https://images.prismic.io/guararapes/aadMi1xvIZEnjSwB_VERDEOLIVA690x490-2-.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=691&h=491"
     },
     {
       "id": "p36",
       "name": "Marrom Sépia",
-      "result": "failed",
-      "error": "arquivo pequeno demais",
+      "result": "ok",
+      "width": 691,
+      "height": 491,
+      "size_bytes": 2596,
       "origin": "https://www.guararapes.com.br/produto/marrom-sepia/",
       "image_url": "https://images.prismic.io/guararapes/aadKyFxvIZEnjSvX_MARROMS%C3%89PIA690x490.png?ixlib=gatsbyFP&auto=format%2Ccompress&fit=max&q=50&w=691&h=491"
     },
